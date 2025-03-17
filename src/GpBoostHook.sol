@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
 
-import { IPrizeHooks, PrizeHooks } from "pt-v5-vault/interfaces/IPrizeHooks.sol";
-import { Claimable } from "pt-v5-vault/abstract/Claimable.sol";
-import { PrizePool } from "pt-v5-prize-pool/PrizePool.sol";
+import { IPrizeHooks, PrizeHooks } from "../lib/pt-v5-vault/src/interfaces/IPrizeHooks.sol";
+import { Claimable } from "../lib/pt-v5-vault/src/abstract/Claimable.sol";
+import { PrizePool } from "../lib/pt-v5-prize-pool/src/PrizePool.sol";
 
 /// @title PoolTogether V5 - Grand Prize Booster
 /// @notice Uses both hook calls to redirect all prizes won (except the GP) back to the prize pool and contribute them on
