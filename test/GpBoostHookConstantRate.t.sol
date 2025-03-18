@@ -48,6 +48,12 @@ contract GpBoostHookConstantRateTest is Test {
         }
     }
 
+    function testBeforeHookCoverage() public {
+        (address redirectAddress, bytes memory returnData) = gpBooster.beforeClaimPrize(address(0), 0, 0, 0, address(0));
+        assertEq(redirectAddress, address(0));
+        assertEq(returnData.length, 0);
+    }
+
     function testBoosterOwner() public {
         assertEq(gpBooster.VAULT_BOOSTER().owner(), address(this));
     }
