@@ -10,7 +10,7 @@ The "contstant rate" GP boost hook is a modified version of the legacy hook that
 
 | Network      | Address                                                                                                                            |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-|      |  |
+| World        | [`0xDD315e449BEaD6E65B30920A3050550292EaC3d4`](https://worldscan.org/address/0xdd315e449bead6e65b30920a3050550292eac3d4)           |
 
 ## GpBoostHook (legacy)
 
